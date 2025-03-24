@@ -1,11 +1,13 @@
-FROM python:3.12-slim
+FROM python:3.12
 
-WORKDIR /app
+RUN pip install flask
 
-RUN pip install --no-cache-dir flask
+COPY libwcocr.so /app/libwcocr.so
 
-COPY libwcocr.so wcocr.cpython-312-x86_64-linux-gnu.so ./
-COPY wx ./wx
-COPY main.py .
+COPY wcocr.cpython-312-x86_64-linux-gnu.so /app/wcocr.cpython-312-x86_64-linux-gnu.so
 
-CMD ["python", "main.py"]
+COPY wx /app/wx
+
+COPY main.py /app/main.py
+
+CMD ["python", "/app/main.py"]
