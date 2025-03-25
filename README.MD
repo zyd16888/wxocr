@@ -144,6 +144,15 @@ This service uses a Flask application to provide a REST API interface to the WeC
 - Currently only supports PNG images (can be extended if needed)
 - Depends on WeChat's OCR binaries which may be updated by WeChat
 
+## License
+
+This project is provided under MIT License with the following additional terms:
+
+1. The repository owner disclaims all liability for any use of this software.
+2. By using, copying, modifying, or distributing this software, you acknowledge that any actions taken with this software are solely your own responsibility.
+3. Any use of this repository and its contents is done at the user's own risk and discretion.
+4. The repository owner is not responsible for any consequences, legal or otherwise, resulting from the use of this software.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
