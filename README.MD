@@ -6,6 +6,10 @@ A Dockerized REST API service for text recognition using WeChat's OCR engine.
 
 This project wraps the WeChat OCR functionality from the excellent [wechat-ocr](https://github.com/swigger/wechat-ocr) project into a simple REST API service that can be easily deployed using Docker. It allows you to perform optical character recognition on images by leveraging WeChat's powerful OCR capabilities.
 
+## ⚠️ Warning
+
+**This is an open-source project intended for learning and communication purposes only. Please do not use it for commercial activities. Users are solely responsible for any consequences resulting from improper use of this project.**
+
 ## Acknowledgements
 
 This project would not be possible without the work of [swigger](https://github.com/swigger) and their [wechat-ocr](https://github.com/swigger/wechat-ocr) project. Their efforts in reverse-engineering and creating a usable interface for WeChat's OCR functionality form the foundation of this service.
@@ -137,10 +141,6 @@ This service uses a Flask application to provide a REST API interface to the WeC
 
 - Currently only supports PNG images (can be extended if needed)
 - Depends on WeChat's OCR binaries which may be updated by WeChat
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributing
 
