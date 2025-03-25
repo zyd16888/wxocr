@@ -10,6 +10,8 @@ This project wraps the WeChat OCR functionality from the excellent [wechat-ocr](
 
 **This is an open-source project intended for learning and communication purposes only. Please do not use it for commercial activities. Users are solely responsible for any consequences resulting from improper use of this project.**
 
+**Copyright Disclaimer:** This project is merely a containerization of an existing open-source project. If you believe this repository infringes upon your copyright or intellectual property rights, please contact the repository owner immediately, and the repository will be promptly removed. We respect intellectual property rights and have no intention of infringing on them.
+
 ## Acknowledgements
 
 This project would not be possible without the work of [swigger](https://github.com/swigger) and their [wechat-ocr](https://github.com/swigger/wechat-ocr) project. Their efforts in reverse-engineering and creating a usable interface for WeChat's OCR functionality form the foundation of this service.
