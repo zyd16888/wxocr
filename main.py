@@ -69,6 +69,18 @@ def index():
     return render_template("index.html")
 
 
+# Handle unsupported methods for /ocr route
+@app.route("/ocr", methods=["GET", "PUT", "DELETE", "PATCH"])
+def unsupported_method():
+    return jsonify({"error": "Method not allowed"}), 405
+
+
+# Handle non-existent paths
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({"error": "Resource not found"}), 404
+
+
 if __name__ == "__main__":
     # 确保templates目录存在
     templates_dir = os.path.join(

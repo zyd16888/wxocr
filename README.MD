@@ -123,6 +123,12 @@ if __name__ == "__main__":
     # result = ocr_recognize(image_url="https://example.com/image.png")
 ```
 
+### test
+
+```bash
+bash test.sh
+```
+
 ## Project Structure
 
 - `main.py`: The Flask API service that handles OCR requests
