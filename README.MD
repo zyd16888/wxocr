@@ -21,7 +21,7 @@ This project would not be possible without the work of [swigger](https://github.
 ### Using Docker
 
 ```bash
-# Pull the image
+# Pull the image golangboyme/wxocr or programnotes/ocr:latest
 docker pull golangboyme/wxocr
 
 # Run the container
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     # result = ocr_recognize(image_url="https://example.com/image.png")
 ```
 
-### test
+### Test
 
 ```bash
 bash test.sh
